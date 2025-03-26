@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ShinyColorsIndonesia
 // @namespace    ufalsalman/ShinyColorsIndonesia
-// @version      0.21.3
+// @version      0.0.1
 // @description  https://github.com/ufalsalman/shinyenza-id
 // @icon         https://shinycolors.enza.fun/icon_192x192.png
 // @author       biuuu
