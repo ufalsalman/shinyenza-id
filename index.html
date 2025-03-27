@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE iDOLM@STER Shiny Colors Tambamar Bahasa Indonesia</title>
+    <meta name="description" content="Tambalan penggemar Bahasa Indonesia untuk gim ponsel THE iDOLM@STER Shiny Colors">
+    <link rel="icon" href="https://shinycolors.enza.fun/icon_192x192.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://shinycolors.enza.fun/icon_192x192.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 25px 25px auto;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .isi {
+            max-width: 720px;
+        }
+    </style>
+</head>
+<body>
+    <div class="isi">
+        <div style="width: 100%; max-width: 720px; height: 160px; background-image: url('https://project-imas.wiki/images/e/ef/SC_S_Ikuta_Haruki_SR02.jpg'); background-size: cover; background-position: center 30%"></div>
+        <h1>THE iDOLM@STER Shiny Colors<br>Tambamar Bahasa Indonesia</h1>
+        <p>Tambalan penggemar Bahasa Indonesia untuk gim ponsel THE iDOLM@STER Shiny Colors.</p>
+        <p style="font-size: 1.1em; font-weight: bold;">Peringatan: Tambamar ini masih dalam tahap pengerjaan dan masih banyak teks yang berbahasa Inggris dan bahasa Jepang!</p>
+        <input type="text" id="copyLink" style="width: 400px; font-size: 1em;" value="https://shinyenza-id.idolmaster.web.id/ShinyColor.user.js" readonly>
+        <button style=" font-size: 1em;" onclick="copyToClipboard()">Salin</button>
+        <script>
+        function copyToClipboard() {
+            var copyText = document.getElementById("copyLink");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            navigator.clipboard.writeText(copyText.value).then(() => {
+                alert("Link berhasil disalin!");
+            }).catch(err => {
+                console.error("Gagal menyalin", err);
+            });
+        }
+        </script>
+        <p>Gunakan <a href="https://violentmonkey.github.io/">ViolentMonkey</a> untuk memasang tambamar ini pada peramban yang kamu gunakan.</p>
+        <p><a href="https://github.com/ufalsalman/shinyenza-id">Repositori GitHub</a> | <a href="https://shinycolors.enza.fun/">THE iDOLM@STER Shiny Colors</a></p>
+    </div>
+</body>
+</html>
